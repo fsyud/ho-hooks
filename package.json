@@ -1,0 +1,20 @@
+{
+  "name": "ho-hooks",
+  "version": "1.0.0",
+  "description": "🔥🔥A React Hooks accumulation && Very commonly used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ligdy7/ho-hooks.git"
+  },
+  "keywords": [],
+  "author": "starryskystar@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ligdy7/ho-hooks/issues"
+  },
+  "homepage": "https://github.com/ligdy7/ho-hooks#readme"
+}
