@@ -9,8 +9,7 @@
   "scripts": {
     "build": "rollup -c",
     "build:types": "tsc",
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "repository": "git+https://github.com/ligdy7/ho-hooks.git",
   "keywords": [],
