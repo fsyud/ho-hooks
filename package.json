@@ -1,6 +1,6 @@
 {
   "name": "ho-hooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🔥🔥A React Hooks accumulation && Very commonly used",
   "main": "lib/bundle.cjs.js",
   "module": "lib/bundle.esm.js",
