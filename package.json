@@ -5,14 +5,19 @@
   "main": "lib/bundle.cjs.js",
   "module": "lib/bundle.esm.js",
   "browser": "lib/bundle.browser.js",
-  "typings": "types/index.d.ts",
+  "types": "types/index.d.ts",
+  "repository": "git+https://github.com/ligdy7/ho-hooks.git",
+  "files": [
+    "src",
+    "types",
+    "lib"
+  ],
   "scripts": {
     "build": "rollup -c",
-    "build:typings": "tsc",
+    "build:types": "tsc",
     "test": "jest"
   },
-  "repository": "git+https://github.com/ligdy7/ho-hooks.git",
-  "keywords": [],
+  "keywords": ["react", "hooks"],
   "author": "starryskystar@163.com",
   "license": "ISC",
   "bugs": {
