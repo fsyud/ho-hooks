@@ -7,17 +7,21 @@
   "browser": "lib/bundle.browser.js",
   "types": "types/index.d.ts",
   "repository": "git+https://github.com/ligdy7/ho-hooks.git",
+  "scripts": {
+    "build": "rollup -c",
+    "build:types": "tsc",
+    "test": "jest",
+    "prepare": "husky install"
+  },
   "files": [
     "src",
     "types",
     "lib"
   ],
-  "scripts": {
-    "build": "rollup -c",
-    "build:types": "tsc",
-    "test": "jest"
-  },
-  "keywords": ["react", "hooks"],
+  "keywords": [
+    "react",
+    "hooks"
+  ],
   "author": "starryskystar@163.com",
   "license": "ISC",
   "bugs": {

@@ -72,7 +72,7 @@ esm
 
 src/parser.ts
 
-types
+types/
 
 .cache/
 .puppet-master/

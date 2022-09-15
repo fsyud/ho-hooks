@@ -26,5 +26,5 @@
   },
   // 只编译 src 目录下的文件
   "include": ["src"],
-  "exclude": ["test", "lib"]
+  "exclude": ["test"]
 }
