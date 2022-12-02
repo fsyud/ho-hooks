@@ -1,8 +1,8 @@
 {
   "name": "ho-hooks",
-  "version": "1.0.2",
-  "description": "🔥🔥A React Hooks accumulation && Very commonly used",
-  "main": "lib/bundle.cjs.js",
+  "version": "1.0.3",
+  "description": "🔥🔥 A React Hooks accumulation && Very commonly used",
+  "main": "dist/index.js",
   "module": "lib/bundle.esm.js",
   "browser": "lib/bundle.browser.js",
   "types": "types/index.d.ts",
@@ -13,11 +13,7 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "files": [
-    "src",
-    "types",
-    "lib"
-  ],
+  "files": ["dist", "LICENSE", "README.md", "package.json"],
   "keywords": [
     "react",
     "hooks"
