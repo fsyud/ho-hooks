@@ -8,10 +8,8 @@
   "types": "types/index.d.ts",
   "repository": "git+https://github.com/ligdy7/ho-hooks.git",
   "scripts": {
-    "build": "rollup -c",
-    "build:types": "tsc",
-    "test": "jest",
-    "prepare": "husky install"
+    "build": "tsc",
+    "test": "jest"
   },
   "files": [
     "dist",
