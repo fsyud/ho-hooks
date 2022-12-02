@@ -5,10 +5,11 @@
   "main": "dist/index.js",
   "module": "lib/bundle.esm.js",
   "browser": "lib/bundle.browser.js",
-  "types": "types/index.d.ts",
+  "types": "dist/index.d.ts",
   "repository": "git+https://github.com/ligdy7/ho-hooks.git",
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c",
+    "build:types": "tsc",
     "test": "jest"
   },
   "files": [
