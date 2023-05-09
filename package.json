@@ -1,7 +1,7 @@
 {
   "name": "ho-hooks",
-  "version": "1.0.6",
-  "description": "🔥🔥 A React Hooks accumulation && Very commonly used",
+  "version": "1.0.7",
+  "description": "A React Hooks accumulation && Very commonly used",
   "main": "dist/index.js",
   "module": "lib/bundle.esm.js",
   "browser": "lib/bundle.browser.js",
